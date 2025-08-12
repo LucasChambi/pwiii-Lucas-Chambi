@@ -1,5 +1,4 @@
 # Guia Rápido: Começando com Laravel
-Este guia irá ajudá-lo a configurar seu ambiente e criar seu primeiro projeto com o framework Laravel.
 
 **O que é Laravel?**
 <p>Laravel é um framework de aplicação web com uma sintaxe expressiva e elegante. Ele é focado no back-end e utiliza a linguagem PHP. O Laravel busca facilitar tarefas comuns em projetos web, como autenticação, roteamento, sessões e cache, tornando o desenvolvimento uma experiência criativa e agradável.</p>
