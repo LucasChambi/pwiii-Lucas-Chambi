@@ -1,10 +1,10 @@
 # Guia Rápido: Começando com Laravel
 
 **O que é Laravel?**
-<p>Laravel é um framework de aplicação web com uma sintaxe expressiva e elegante. Ele é focado no back-end e utiliza a linguagem PHP. O Laravel busca facilitar tarefas comuns em projetos web, como autenticação, roteamento, sessões e cache, tornando o desenvolvimento uma experiência criativa e agradável.</p>
+<p>Laravel é um framework de aplicação web com uma sintaxe expressiva. Ele é focado no back-end e utiliza a linguagem PHP. O Laravel busca facilitar tarefas comuns em projetos web, como autenticação, roteamento, sessões e cache, tornando o desenvolvimento uma experiência criativa e agradável.</p>
 
 **Pré-requisitos**
-<p>Antes de começar, você precisa ter os seguintes softwares instalados e configurados no seu sistema:</p>
+<p>Ter os seguintes softwares instalados e configurados no sistema:</p>
 <ul>
 <li>PHP: A linguagem de programação na qual o Laravel é construído.
 
@@ -16,9 +16,9 @@
 
 **Passo 1: Configurando o Ambiente**
 <ul>
-<li>Instale o XAMPP: Baixe e instale o XAMPP. Isso instalará o PHP em seu computador (geralmente em C:\xampp\php).
+<li>Instale o XAMPP: Baixe e instale o XAMPP. Isso instalará o PHP no computador (geralmente em C:\xampp\php).
 
-<li>Configure o PHP nas Variáveis de Ambiente: Para que você possa executar o comando php de qualquer lugar no seu terminal, adicione a pasta de instalação do PHP ao PATH do sistema.
+<li>Configure o PHP nas Variáveis de Ambiente: Para que possa executar o comando php de qualquer lugar no seu terminal, adicione a pasta de instalação do PHP ao PATH do sistema.
 
 <li>Instale o Composer: Baixe e execute o instalador do Composer. Ele encontrará automaticamente sua instalação do PHP.
 </li>
@@ -30,12 +30,12 @@
 
 > composer global require laravel/installer
 
-<li>Isso permite que você use o comando laravel new para criar novos projetos rapidamente.
+<li>Isso permite que comando laravel new possa criar novos projetos.
 </ul>
 
 **Passo 3: Criando uma Nova Aplicação**
 <ul>
-<li>Navegue pelo terminal até a pasta onde você guarda seus projetos. Se estiver usando o XAMPP, um bom lugar é a pasta htdocs.
+<li>Navegue pelo terminal até a pasta onde guarda seus projetos. Se estiver usando o XAMPP, é a pasta htdocs.
 
 > cd C:\xampp\htdocs
 
@@ -52,7 +52,7 @@ Como alternativa, você pode criar um projeto via Composer:
 
 **Passo 4: Executando o Projeto**
 <ul>
-<li>Seu projeto Laravel precisa de dois processos principais rodando em paralelo durante o desenvolvimento: o servidor da aplicação e o compilador de assets (CSS e JavaScript).
+<li>Um projeto Laravel precisa de dois processos principais rodando em paralelo durante o desenvolvimento: o servidor da aplicação e o compilador de assets (CSS e JavaScript).
 
 Acesse a pasta do projeto pelo terminal:
 
@@ -60,7 +60,7 @@ Acesse a pasta do projeto pelo terminal:
 
 <li>Abra dois terminais dentro da pasta do seu projeto (no VS Code, você pode dividir o terminal).
 
-<li>No primeiro terminal, inicie o servidor de desenvolvimento do Laravel:
+<li>No primeiro terminal, inicie o servidor de desenvolvimento do Laravel (opcional): 
 
 > php artisan serve
 
@@ -77,3 +77,10 @@ Bom projeto!
 
 </li>
 </ul>
+
+------------------------------------------------------------------------------------------------------------------
+
+# Tutorial de como instalar Composer no PowerShell
+
+<p>Após ter feito um git clone do projeto Laravel, duplicar o arquivo env.example e renomear para apenas .env</p>
+<p>
