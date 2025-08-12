@@ -82,5 +82,4 @@ Bom projeto!
 
 # Tutorial de como instalar Composer no PowerShell
 
-<p>Após ter feito um git clone do projeto Laravel, duplicar o arquivo env.example e renomear para apenas .env</p>
-<p>
+<p>Após ter feito um git clone do projeto Laravel, duplicar o arquivo env.example e renomear para apenas .env (continua...)</p>
