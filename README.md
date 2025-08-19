@@ -78,8 +78,58 @@ Bom projeto!
 </li>
 </ul>
 
+<br>
 ------------------------------------------------------------------------------------------------------------------
 
-# Tutorial de como instalar Composer no PowerShell
+# Guia: Configurando um Projeto Laravel Após o git clone
 
-<p>Após ter feito um git clone do projeto Laravel, duplicar o arquivo env.example e renomear para apenas .env (continua...)</p>
+Este guia rápido mostra os passos essenciais para configurar e rodar um projeto Laravel que você acabou de clonar de um repositório Git.
+
+**Pré-requisitos**
+Antes de começar, certifique-se de que você tem os seguintes softwares instalados em seu ambiente:
+
+<ul>
+<li>PHP</li>
+<li>COMPOSER (gerenciador de dependências para PHP)</li>
+<li>Node.js e npm (gerenciador de pacotes para javascript)
+<li>GIT</li>
+</ul>
+
+**Passo a Passo**<br>
+Siga os comandos abaixo no seu terminal (como o PowerShell) dentro da pasta do projeto.
+
+1. **Copiar o Arquivo de Ambiente**
+Primeiro, crie seu próprio arquivo de configuração de ambiente copiando o arquivo de exemplo .env.example para um novo arquivo chamado .env .
+
+O arquivo .env armazena as configurações específicas do seu ambiente, como as credenciais do banco de dados. Ele é ignorado pelo Git para manter suas informações sensíveis seguras.
+
+2. **Instalar Dependências do PHP**
+Execute o Composer para baixar e instalar todas as bibliotecas PHP de que o projeto necessita.
+
+> composer install
+
+3. **Instalar Dependências do JavaScript**
+Agora, instale as dependências de front-end, como Vue.js, React ou bibliotecas CSS, usando o NPM.
+
+> npm install
+
+4. **Gerar a Chave da Aplicação**
+O Laravel precisa de uma chave de encriptação única para proteger sessões e outros dados sensíveis.
+
+> php artisan key:generate
+
+Este comando irá gerar uma chave aleatória e a inserirá automaticamente no seu arquivo .env.
+
+5. **Executar as Migrações do Banco de Dados**
+Crie as tabelas no seu banco de dados executando as migrações do projeto. Certifique-se de que suas credenciais de banco de dados estão corretas no arquivo .env antes de rodar este comando.
+
+> php artisan migrate
+
+O terminal poderá perguntar se você deseja criar o banco de dados caso ele não exista. Digite yes e pressione Enter.
+
+6. **Iniciar o Ambiente de Desenvolvimento**
+Após seguir todos os passos anteriores, execute o comando abaixo para compilar os assets (CSS, JS) e iniciar o servidor de desenvolvimento.
+
+>composer run dev
+
+Este comando geralmente é um atalho configurado no arquivo composer.json do projeto para executar tarefas como npm run dev ou php artisan serve.
