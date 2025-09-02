@@ -133,3 +133,16 @@ Após seguir todos os passos anteriores, execute o comando abaixo para compilar 
 >composer run dev
 
 Este comando geralmente é um atalho configurado no arquivo composer.json do projeto para executar tarefas como npm run dev ou php artisan serve.
+
+-----------------------------------------------------------------------------
+Banco de Dados no Laravel
+
+Pra executar o arquivo database.slite, precisamos instalar uma extensão chamada
+SQLite, depois disso, precisamos fazer uma pesquisa apertando o comando maior que mais p, e clicar na opção Open Database, logo depois indo no arquivo databaseSeeer.php , precisamos desmarcar a linha 16 pq é responsavel por criar registros no banco de dados, quando estiver pronto, ir no terminal executar o comando php artisan db:seed, quando fizer isso, basta atualizar o sqlite explorer e dar play na categoria users, irá aparacer 10 registros que dá para alterar.
+
+----------------------------------------
+new query - criar um campo em outro arquivo.
+
+php artisan make:migration criar_arquivo
+
+php artisan migrate:rollback
