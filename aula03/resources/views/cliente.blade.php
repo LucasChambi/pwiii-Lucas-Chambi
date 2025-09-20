@@ -62,7 +62,7 @@
         @foreach ($cliente as $c)
             <tr>
                 <td>{{ $c->id }}</td>
-                <td>{{ $c->primeiroNome}}</td>
+                <td>{{ $c->primeiroNome }}</td>
                 <td>{{ $c->sobrenome }}</td>
             </tr>
         @endforeach
