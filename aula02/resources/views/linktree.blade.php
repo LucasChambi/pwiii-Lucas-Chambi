@@ -15,7 +15,7 @@
     <div class="flex flex-col items-center space-y-4 m-10">
         <button class="bg-white text-[#2e8fa6] font-bold p-3 pr-10 pb-3 pl-10 w-64 rounded-full transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-white"><a href="{{ url('https://github.com/LokiiiGo') }}">Github</a></button>
         <button class="bg-white text-[#2e8fa6] font-bold p-3 pr-10 pb-3 pl-10 w-64 rounded-full transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-white"><a href="{{ url('https://www.linkedin.com/in/lucas-chambi-48299435a/') }}">LinkedIn</a></button>
-        <button class="bg-white text-[#2e8fa6] font-bold p-3 pr-10 pb-3 pl-10 w-64 rounded-full transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-white"><a href="{{ url('https://twitter.com/kinubiyosoy') }}">Twitter</a></button>
+        <button class="bg-white text-[#2e8fa6] font-bold p-3 pr-10 pb-3 pl-10 w-64 rounded-full transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-white"><a href="{{ url('https://twitter.com/LokistrangeBH/') }}">Twitter</a></button>
         <button class="bg-white text-[#2e8fa6] font-bold p-3 pr-10 pb-3 pl-10 w-64 rounded-full transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-white"><a href="{{ url('https://www.instagram.com/kinubiyosoy/') }}">Instagram</a></button>
     </div>
 
