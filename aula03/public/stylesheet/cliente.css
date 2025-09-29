@@ -1,0 +1,48 @@
+* {
+    margin: 5px auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, #b32be9, #ff8c19);
+    background-attachment: fixed;
+
+}
+
+#cliente, a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+legend {
+    color: white;
+}
+
+.nome,
+.sobrenome {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#submit {
+    display: flex;
+    padding: 10px 3rem 10px 3rem;
+    border: 1px solid #000;
+    border-radius: 8px;
+    background-color: white;
+}
+
+table {
+    color: white;
+}
+
+input[type="text"] {
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 8px;
+}
