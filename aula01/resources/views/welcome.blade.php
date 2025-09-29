@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,7 +28,7 @@
     {{--TRACE - irá rastrear a requisição--}}
     {{--Os credenciais corretos vai direcionar para a pagina de teste com a tag script e o metodo
         window.location.href(utilizado para redirecionar o usuario para outra pagina)--}}
-    @php
+    {{--@php
     if(isset($_GET['senha']) && isset($_GET['email'])){
         $senha = $_GET['senha'];
         $email = $_GET['email'];
@@ -42,4 +42,17 @@
     }
     @endphp
 </body>
-</html>
+</html>--}}
+<form method="POST" action="{{ url('teste') }}">
+    @csrf
+    {{-- Campos do formulário --}}
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+    </div>
+    <div>
+        <label for="password">Senha:</label>
+        <input type="password" name="password" required>
+    </div>
+    <button type="submit">ENTRAR</button>
+</form>

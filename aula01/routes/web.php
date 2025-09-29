@@ -1,12 +1,12 @@
 <?php
-
-use Illuminate\Support\Facades\Route;
+// ...existing code...
+use App\Http\Controllers\Auth\LoginController;
 
 Route::get('/', function () {
     return view('welcome');
 });
-
-// Rota para a view teste.blade.php
-Route::get('/teste', function () {
+Route::post('/teste', function () {
     return view('teste');
 });
+Route::post('/welcome', [LoginController::class, 'authenticate'])->name('login.authenticate');
+// ...existing code...
