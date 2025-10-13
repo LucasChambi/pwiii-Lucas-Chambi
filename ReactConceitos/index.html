@@ -30,13 +30,14 @@
 
       
   function HomePage() {
-  const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  const names = ['HTML', 'CSS', 'JS'];
   const [likes, setLikes] = React.useState(0)
 
   function handleClick() {
     // console.log("quantidade de likes aumentando")
     setLikes(likes + 1);
   }
+
   return (
     <div>
       <Header title="Lista de nomes" />
@@ -45,7 +46,7 @@
           <li key={name}>{name}</li>
         ))}
       </ul>
-      <button onClick={handleClick}>Gostei ({likes})</button>
+      <button onClick={handleClick}>AMEI ({likes})</button>
     </div>
   );
 }
