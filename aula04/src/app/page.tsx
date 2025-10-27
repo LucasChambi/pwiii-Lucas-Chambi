@@ -1,9 +1,12 @@
-import Image from "next/image";
+'use client';
+import Teste from './components/Teste';
+import Contador from './components/Contador';
 
-export default function Home() {
+export default function App() {
   return (
     <div>
-      <h1>Olá Mundo</h1>
+      <Teste />
+      <Contador />
     </div>
   );
 }
